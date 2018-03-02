@@ -23,7 +23,7 @@ public class TesteApplication {
       LOG.warn("[TAG_W_" + i + "] - Teste de log error.");
       LOG.debug("[TAG_D_" + i + "] - Teste de log debug.");
     }
-    return "Hello World!";
+    return "Log printed!";
   }
 
   public static void main(String[] args) {
